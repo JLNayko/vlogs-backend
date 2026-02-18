@@ -10,7 +10,7 @@ let logs = [];
 const MAX_LOGS = 500;
 
 // Clé secrète pour sécuriser l'envoi (ton Lua l'enverra dans le header)
-const SECRET_KEY = process.env.SECRET_KEY || 'district_secret_2024';
+const SECRET_KEY = process.env.SECRET_KEY || 'district_secret_2026';
 
 // ──────────────────────────────────────────────
 // POST /log  → reçoit un log depuis le Lua
